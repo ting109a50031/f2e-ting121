@@ -1,0 +1,146 @@
+html{
+	width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+p {
+	font-size: 24px;
+}
+
+p2 {
+	font-size: 14px;
+	color: #fff;
+}
+
+p3 {
+	font-size: 24px;
+	color: #fff;
+}
+
+
+
+body{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position:center top;
+    background-image: url(../img/BG.png);
+    background-color: #ccc;
+}
+#dbody{width:350px; border:solid 2px #fff;}
+
+	
+	
+
+.navbar-brand2 img {
+	height: 50px;
+}
+
+@media (min-width: 768px) {
+	/*nav選單*/
+		.navbar{
+		padding-left:100px!important;
+		padding-right:50px!important; 
+	}
+	}
+
+.banner {
+	margin-top: 76px;
+}
+
+.banner .container-fluid {
+	padding:0!important;
+}
+
+.about {
+	padding:100px 0;
+}
+
+.about img {
+	width: 100%;
+}
+
+.title {
+	font-size:20px;
+	font-weight: bold;
+}
+
+.title_line {
+	border-color:#ffffff00;
+}
+
+.story {
+	padding: 50px 0;
+	font-size: 18px;
+}
+
+.story span {
+	font-style: italic;
+	font-size: 20px;
+	display: block;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+.title_line {
+	margin-bottom: 50px;
+}
+
+.product {
+	padding-bottom:20px;
+}
+.product .card {
+	padding: 20px 10px;
+	margin-bottom: 10px;
+}
+.product img {
+	width:100%;
+	margin-bottom:20px;
+}
+
+.product img:hover {
+	opacity: 0.8;
+}
+.product_name {
+	padding: 10px;
+}
+
+.about2 {
+	padding:100px ;
+	background-color: #bb0000c5; 
+}
+
+.title {
+	font: size 24px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.title_line2 {
+	margin-bottom: 50px;
+	border-color:#ffffff;
+}
+
+
+.contact {
+	height:150px;
+	padding-top: 100px;
+	background-image: url(../img/2-20.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: top center;
+}
+
+footer {
+	max-width:100%;
+	background-color: #bb0000;
+	padding:10px 0; 
+}
+
+footer p {
+	line-height: 30px;
+	text-align: center;
+	
+}
